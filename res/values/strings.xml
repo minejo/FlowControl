@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">流量监控</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title">本月数据流量</string>
+    <string name="receive">接收</string>
+    <string name="send">发送</string>
+    <string name="space">  </string>
+    <string name="string1">最后更新时间:</string>
+    <string name="title2">使用情况</string>
+    <string name="string2">本月可使用流量为:</string>
+    <string name="string3">估计剩余流量使用时间:</string>
+    <string name="string4">联系开发者</string>
+    <string name="author">Jonathan Li</string>
+    <string name="autormail">Email: jonathan.swjtu@gmail.com</string>
+    <string name="homepage">HomePage: jonathanlife.sinaapp.com</string>
+    <string name="authorschool">西南交通大学</string>
+    <string name="todaytitle">今日</string>
+    <string name="textview">TextView</string>
+
+</resources>

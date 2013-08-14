@@ -1,0 +1,221 @@
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/LinearLayout01"
+        android:layout_width="fill_parent"
+        android:background="#f2f2f2"
+        android:layout_height="fill_parent" >
+
+        <TableLayout
+            android:id="@+id/TableLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:stretchColumns="0" >
+
+            <TableRow>
+                <TableLayout android:id="@+id/test" >
+                    <TableRow>
+                        <TextView
+                            android:layout_height="40dip"
+                            android:gravity="center_vertical"
+                            android:padding="3dip"
+                            android:text="每月流量限额"
+                            android:textSize="18px" />
+                    </TableRow>
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/limit_flow"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:textSize="15px" />
+
+                    </TableRow>
+                </TableLayout>
+
+                <ImageView
+                    android:id="@+id/imageButton_quota"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dip"
+                    android:src="@drawable/setting" />
+            </TableRow>                     
+       
+
+            <TextView android:height="10dip" 
+                android:background="@drawable/line" />
+
+            <TableRow>
+                <TableLayout>
+                    <TableRow>
+                        <TextView
+                            android:layout_height="40dip"
+                            android:gravity="center_vertical"
+                            android:padding="3dip"
+                            android:text="月结算日"
+                            android:textSize="18px" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/count_date"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:textSize="15px" />
+
+                    </TableRow>
+                </TableLayout>
+
+                <ImageView
+                    android:id="@+id/imageButton_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dip"
+                    android:src="@drawable/setting" />
+            </TableRow>
+
+            <TextView android:height="10dip" 
+                android:background="@drawable/line"/>
+
+            <TableRow>
+
+                <TableLayout>
+                    <TableRow>
+                        <TextView
+                            android:layout_height="40dip"
+                            android:gravity="center_vertical"
+                            android:padding="3dip"
+                            android:text="数据统计刷新频率"
+                            android:textSize="18px" />
+                    </TableRow>
+                    
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/refresh"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:textSize="15px" />
+                    </TableRow>
+                </TableLayout>
+
+                <ImageView
+                    android:id="@+id/imageButton_period"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dip"
+                    android:src="@drawable/setting" />
+            </TableRow>
+
+            <TextView android:height="10dip" 
+                android:background="@drawable/line"/>
+
+            <TableRow>
+
+                <TableLayout>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_height="40dip"
+                            android:gravity="center_vertical"
+                            android:padding="3dip"
+                            android:text="清空所有统计数据"
+                            android:textSize="18px" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/clear_data"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:textSize="15px" />
+                    </TableRow>
+                </TableLayout>
+
+                <ImageView
+                    android:id="@+id/imageButton_clear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dip"
+                    android:src="@drawable/setting" />
+            </TableRow>
+
+            <TextView android:height="10dip" 
+                android:background="@drawable/line"/>
+
+            <TableRow>
+                <TableLayout>
+                    <TableRow>
+
+                        <TextView
+                            android:layout_height="40dip"
+                            android:layout_gravity="center"
+                            android:gravity="center_vertical"
+                            android:padding="3dip"
+                            android:text="流量警示"
+                            android:textSize="18px" />
+
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/is_warn"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:textSize="15px" />
+                    </TableRow>
+                </TableLayout>
+
+                <ToggleButton
+                    android:id="@+id/ToggleButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60px"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textOff="OFF"
+                    android:textOn="ON" >
+
+                </ToggleButton>
+            </TableRow>
+
+            <TextView android:height="10dip" 
+                android:background="@drawable/line"/>
+
+            <TableRow>
+                <TableLayout>
+                    <TableRow>
+                        <TextView
+                            android:layout_height="40dip"
+                            android:gravity="center_vertical"
+                            android:padding="3dip"
+                            android:text="上网流量统计"
+                            android:textSize="18px" />
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/is_statist"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:textSize="15px" />
+                    </TableRow>
+                </TableLayout>
+
+                <ToggleButton
+                    android:id="@+id/ToggleButton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60px"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textOff="OFF"
+                    android:textOn="ON"
+                    android:textSize="12px" >
+
+                </ToggleButton>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
